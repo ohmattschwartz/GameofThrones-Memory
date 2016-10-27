@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Thronesfont";
+  src: url("Thronesfont.ttf");
+}
+
+body {
+  text-align: center;
+  font-size: 24px;
+  background-color: black;
+  background-image: url('./images/gotbackground2.jpg');
+}
+
+h1 {
+  font-family: "Thronesfont";
+  color: lightgrey;
+  font-weight: 100;
+  text-shadow: 5px 5px 10px black;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20vmin
+}
+
+.img {
+  height: 130px;
+  width: 80px;
+  background-size: cover;
+}
+
+.images div {
+  border: 1px solid grey;
+  line-height: 2em;
+  font-size: 3em;
+  border-radius: 4px;
+  margin: 0.5px;
+}
+
+h2 {
+  font-family: "Thronesfont";
+  font-size: 19px;
+  color: lightgrey;
+  text-shadow: 0px 0px 5px black;
+  margin-left: auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
